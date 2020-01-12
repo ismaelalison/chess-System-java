@@ -5,12 +5,16 @@
  */
 package application;
 
+import boardgame.Position;
+
 /**
  *
  * @author ismae
  */
 public class Program {
     public static void main(String[] args) {
-        System.out.println("Hello word!");
+        
+        Position pos = new Position(3, 5);
+        System.out.println(pos);
     }
 }
